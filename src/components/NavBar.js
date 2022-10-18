@@ -6,19 +6,19 @@ import LoggedInUser from './LoggedInUser';
 
 const NavBar = () => {
   return (
-    <div className="bg-black w-full h-[70px] flex flex-column">
-      <div className='w-[35%] flex'>
-        <img  src={dp}  className='rounded-full h-[40px] w-[40px] mt-auto mb-auto ml-2'></img>
-        <p className='pl-2 font-bold text-lg bg-black text-white mt-auto mb-auto ml-2'>Deepak Fletcher</p>
+    <div class="fixed bg-black w-full h-[70px] flex flex-column">
+      <div class='w-[35%] flex'>
+        <img  src={dp}  class='rounded-full h-[40px] w-[40px] mt-auto mb-auto ml-2'></img>
+        <p class='pl-2 font-bold text-[15px] bg-black text-white mt-auto mb-auto ml-2'>Deepak Fletcher</p>
       </div>
-      <div className="bg-black m-auto flex">
-        <img src={spotify} className="bg-black h-[40px] w-[40px]"></img>
-        <p className='pl-2 font-bold text-2xl bg-black text-white m-auto'>Spotify</p>
+      <div class="bg-black m-auto flex">
+        <img src={spotify} class="bg-black h-[40px] w-[40px]"></img>
+        <p class='pl-2 font-bold text-2xl bg-black text-white m-auto'>Spotify</p>
       </div>
-      <div className='w-[35%] flex'>
-        <div className='w-[200px] bg-white ml-[40%] mt-auto mb-auto h-[30px] rounded-full pr-2'>
+      <div class='w-[35%] flex'>
+        <div class='w-[150px] grow bg-white ml-[40%] mt-auto mb-auto h-[25px] rounded-full pr-2'>
         </div>
-        <ImSearch className='text-white m-auto h-[35px] w-[35px]'/>
+        <ImSearch class='text-white mt-auto mb-auto ml-[10px] mr-[10px] w-[40px] text-[25px]'/>
       </div>
     </div>
   )

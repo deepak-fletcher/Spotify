@@ -5,7 +5,7 @@ import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-screen relative">
         <NavBar></NavBar>
         <Body></Body>
     </div>
